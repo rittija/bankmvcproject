@@ -8,7 +8,7 @@
 </head>
 <body>
 <center><h1>Insert Contact Details</h1></center>
-<form action="/springsampleweb1/addContactInfo" method="POST">
+<form action="/bankmvcproject/addContactInfo" method="POST">
 <table>
 <tr>
 <td><label>Address ::</label></td>

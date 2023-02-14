@@ -7,7 +7,7 @@
 <title>Personal Info Page</title>
 </head>
 <body>
-<form method="post" action="/springsampleweb1/addPersonInfo">
+<form method="post" action="/bankmvcproject/addPersonInfo">
 <table>
 <tr>
 <td><label>First Name ::</label></td>

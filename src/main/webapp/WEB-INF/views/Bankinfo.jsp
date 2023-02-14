@@ -8,7 +8,7 @@
 </head>
 <body>
 <center><h1>Insert Bank Details</h1></center>
-<form action="/springsampleweb1/addBankInfo" method="POST">
+<form action="/bankmvcproject/addBankInfo" method="POST">
 <table>
 <tr>
 <td><label>Bank Name ::</label></td>
