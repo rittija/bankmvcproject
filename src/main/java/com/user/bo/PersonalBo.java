@@ -13,9 +13,13 @@ public class PersonalBo {
 	
 	public void personalInfoAdd(PersonalInfo info) {
 		try {
+			
 			dao.addPersonalInfo(info);
+			
+			
 		}catch(Exception e) {
 			e.printStackTrace();
+			System.out.print("");
 		}
 	}
 
