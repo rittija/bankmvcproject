@@ -9,6 +9,11 @@ import org.springframework.web.servlet.ModelAndView;
 import com.user.bo.BankBo;
 import com.user.vo.BankInfo;
 
+/**
+ * This is bank controller
+ * @author rittijapal
+ *
+ */
 @RestController
 public class Bank {
 	
