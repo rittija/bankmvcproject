@@ -10,7 +10,11 @@ import com.user.bo.ContactBo;
 import com.user.vo.ContactInfo;
 
 
-
+/**
+ * This is controller for contact info
+ * @author rittijapal
+ *
+ */
 
 @RestController
 public class Contact {
