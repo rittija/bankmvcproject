@@ -9,6 +9,11 @@ import org.springframework.web.servlet.ModelAndView;
 import com.user.bo.PersonalBo;
 import com.user.vo.PersonalInfo;
 
+/**
+ * This is controller for first page and personal info
+ * @author rittijapal
+ *
+ */
 @RestController
 public class Personal {
 
