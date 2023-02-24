@@ -10,7 +10,7 @@ import com.user.bo.BankBo;
 import com.user.vo.BankInfo;
 
 /**
- * This is bank controller
+ * This is bank controller. rest conrtrollre
  * @author rittijapal
  *
  */
