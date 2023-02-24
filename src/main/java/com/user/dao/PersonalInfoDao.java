@@ -14,10 +14,10 @@ public class PersonalInfoDao {
 	
 	public void addPersonalInfo(PersonalInfo info)throws Exception {
 		Object[] obj = new Object[4];
-		obj[1] = info.getFirstName();
-		obj[2] = info.getLastName();
-		obj[3] = info.getMiddleName();
-		obj[4] = info.getGender();
+		obj[0] = info.getFirstName();
+		obj[1] = info.getLastName();
+		obj[2] = info.getMiddleName();
+		obj[3] = info.getGender();
 		this.template.update("Insert Into bank.personal(firstname, lastname, middlename, gender)"+" VALUES  (?,?,?,?)", obj);
 	}
 
