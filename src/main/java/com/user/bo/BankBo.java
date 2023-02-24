@@ -16,7 +16,6 @@ public class BankBo {
 		
 		try {
 			dao.addBankinfo(info);
-			System.out.println("Adding more logger");
 		}catch(Exception e) {
 			e.printStackTrace();
 		}

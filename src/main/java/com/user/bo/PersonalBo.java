@@ -16,10 +16,8 @@ public class PersonalBo {
 			
 			dao.addPersonalInfo(info);
 			
-			
 		}catch(Exception e) {
 			e.printStackTrace();
-			System.out.print("");
 		}
 	}
 
